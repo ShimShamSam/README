@@ -6,7 +6,7 @@
 * [Demos](#demos)
 * [Usage](#usage)
 * [API Documentation](#api-documentation)
-	* [Collisions](#collisions)
+	* [Collisions](#collisions-1)
 	* [Circle](#circle)
 	* [Polygon](#polygon)
 * [Collision Information](#collision-information)
@@ -286,6 +286,10 @@ Polygon.prototype.setPoints(Array points)
 		<td>An array of coordinate pairs [[0, 0], [100, 100], ...] that make up the polygon</td>
 	</tr>
 </table>
+
+# Points and Lines
+
+Points and Lines can be made by supplying only one or two coordinate pairs, respectively, to the Polygon constructor.
 
 # Collision Information
 
