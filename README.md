@@ -9,6 +9,9 @@
 	* [Collisions](#collisions-1)
 	* [Circle](#circle)
 	* [Polygon](#polygon)
+	* [Line](#line)
+	* [Point](#point)
+* [Points and Lines](#points-and-lines)
 * [Collision Information](#collision-information)
 * [Overlap](#overlap)
 * [Limitations](#limitations)
@@ -287,9 +290,13 @@ Polygon.prototype.setPoints(Array points)
 	</tr>
 </table>
 
-# Points and Lines
+## Line
 
-Points and Lines can be made by supplying only one or two coordinate pairs, respectively, to the Polygon constructor.
+Lines can be constructed by creating a polygon with only two coordinate pairs
+
+## Point
+
+Points can be constructed by creating a polygon with only one coordinate pair
 
 # Collision Information
 
